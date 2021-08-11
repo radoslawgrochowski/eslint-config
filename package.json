@@ -1,14 +1,18 @@
 {
   "name": "@radoslawgrochowski/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/radoslawgrochowski/eslint-config.git"
+    "url": "https://github.com/radoslawgrochowski/eslint-config.git"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "lint": "eslint -c index.js * --fix"
+    "lint": "eslint -c index.js . --ext .js --fix",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "eslint",
@@ -22,10 +26,11 @@
   "homepage": "https://github.com/radoslawgrochowski/eslint-config#readme",
   "devDependencies": {
     "eslint": "7.32.0",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "semantic-release": "^17.4.4"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-prettier": "3.4.0"
   }
