@@ -1,0 +1,1 @@
+# @radoslawgrochowski/eslint-config
