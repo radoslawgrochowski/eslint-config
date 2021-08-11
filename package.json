@@ -8,7 +8,8 @@
     "url": "https://github.com/radoslawgrochowski/eslint-config.git"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ],
   "scripts": {
     "lint": "eslint -c index.js . --ext .js --fix",
