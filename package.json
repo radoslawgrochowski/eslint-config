@@ -1,0 +1,32 @@
+{
+  "name": "@radoslawgrochowski/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radoslawgrochowski/eslint-config.git"
+  },
+  "scripts": {
+    "lint": "eslint -c index.js * --fix"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "radoslawgrochowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radoslawgrochowski/eslint-config/issues"
+  },
+  "homepage": "https://github.com/radoslawgrochowski/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-prettier": "3.4.0"
+  }
+}
