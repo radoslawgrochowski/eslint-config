@@ -22,7 +22,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
-  plugins: ['prettier'],
+  plugins: ['prettier', 'prefer-arrow'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -32,7 +32,9 @@ module.exports = {
         singleQuote: true,
       },
     ],
-    'arrow-body-style': 'off',
-    'prefer-arrow-callback': 'off',
+    'arrow-body-style': ['error', 'as-needed'],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'prefer-arrow-callback': 'error',
+    'prefer-arrow/prefer-arrow-functions': 'error',
   },
 };
