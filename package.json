@@ -27,7 +27,7 @@
   "homepage": "https://github.com/radoslawgrochowski/eslint-config#readme",
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
-    "@commitlint/config-conventional": "13.1.0",
+    "@commitlint/config-conventional": "17.8.1",
     "eslint": "7.32.0",
     "husky": "7.0.1",
     "prettier": "2.3.2",
