@@ -21,8 +21,8 @@ dependencies:
     specifier: 1.2.3
     version: 1.2.3(eslint@7.32.0)
   eslint-plugin-prettier:
-    specifier: 3.4.0
-    version: 3.4.0(eslint-config-prettier@8.3.0)(eslint@7.32.0)(prettier@2.3.2)
+    specifier: 3.4.1
+    version: 3.4.1(eslint-config-prettier@8.3.0)(eslint@7.32.0)(prettier@2.3.2)
 
 devDependencies:
   '@commitlint/cli':
@@ -1122,8 +1122,8 @@ packages:
       eslint: 7.32.0
     dev: false
 
-  /eslint-plugin-prettier@3.4.0(eslint-config-prettier@8.3.0)(eslint@7.32.0)(prettier@2.3.2):
-    resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
+  /eslint-plugin-prettier@3.4.1(eslint-config-prettier@8.3.0)(eslint@7.32.0)(prettier@2.3.2):
+    resolution: {integrity: sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
       eslint: '>=5.0.0'
