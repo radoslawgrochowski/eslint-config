@@ -29,8 +29,8 @@ devDependencies:
     specifier: 13.2.1
     version: 13.2.1
   '@commitlint/config-conventional':
-    specifier: 13.1.0
-    version: 13.1.0
+    specifier: 13.2.0
+    version: 13.2.0
   '@semantic-release/changelog':
     specifier: 6.0.3
     version: 6.0.3(semantic-release@24.1.2)
@@ -101,8 +101,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@commitlint/config-conventional@13.1.0:
-    resolution: {integrity: sha512-zukJXqdr6jtMiVRy3tTHmwgKcUMGfqKDEskRigc5W3k2aYF4gBAtCEjMAJGZgSQE4DMcHeok0pEV2ANmTpb0cw==}
+  /@commitlint/config-conventional@13.2.0:
+    resolution: {integrity: sha512-7u7DdOiF+3qSdDlbQGfpvCH8DCQdLFvnI2+VucYmmV7E92iD6t9PBj+UjIoSQCaMAzYp27Vkall78AkcXBh6Xw==}
     engines: {node: '>=v12'}
     dependencies:
       conventional-changelog-conventionalcommits: 4.6.3
