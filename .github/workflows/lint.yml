@@ -2,15 +2,14 @@ name: lint
 
 on:
   pull_request:
-    types: ['opened', 'edited', 'reopened', 'synchronize']
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14
-      - run: npm ci
-      - run: npm run lint
+      - uses: cachix/install-nix-action@v17
+      - name: Install
+        run: nix develop --command pnpm install 
+      - name: Lint 
+        run: nix develop --command pnpm lint
