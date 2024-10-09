@@ -1,10 +1,10 @@
 # @radoslawgrochowski/eslint-config
 
-Default Eslint configuration for my personal projects.
+Default Eslint configuration for my projects.
 
 ## Quick start
 
-1. Install packages and dependencies using your favorite manager
+1. Install package and dependencies using your favorite manager
 
 ```sh
 $ pnpm i -D @radoslawgrochowski/eslint-config eslint prettier
