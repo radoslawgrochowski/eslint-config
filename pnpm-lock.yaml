@@ -44,8 +44,8 @@ devDependencies:
     specifier: 9.12.0
     version: 9.12.0
   husky:
-    specifier: 7.0.4
-    version: 7.0.4
+    specifier: 9.1.6
+    version: 9.1.6
   prettier:
     specifier: 3.3.3
     version: 3.3.3
@@ -1704,9 +1704,9 @@ packages:
     engines: {node: '>=18.18.0'}
     dev: true
 
-  /husky@7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 
