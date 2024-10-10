@@ -11,6 +11,7 @@
     "README.md"
   ],
   "scripts": {
+    "prepare": "husky",
     "lint": "eslint .",
     "lint:fix": "pnpm lint --fix",
     "release": "semantic-release"
