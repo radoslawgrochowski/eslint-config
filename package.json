@@ -34,7 +34,7 @@
     "eslint": "9.24.0",
     "husky": "9.1.7",
     "prettier": "3.5.3",
-    "semantic-release": "24.2.0",
+    "semantic-release": "24.2.3",
     "typescript": "5.8.3"
   },
   "dependencies": {
