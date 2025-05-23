@@ -26,11 +26,11 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: 19.8.0
-    version: 19.8.0(@types/node@22.15.21)(typescript@5.8.3)
+    specifier: 19.8.1
+    version: 19.8.1(@types/node@22.15.21)(typescript@5.8.3)
   '@commitlint/config-conventional':
-    specifier: 19.8.0
-    version: 19.8.0
+    specifier: 19.8.1
+    version: 19.8.1
   '@semantic-release/changelog':
     specifier: 6.0.3
     version: 6.0.3(semantic-release@24.2.3)
@@ -76,8 +76,8 @@ packages:
     dev: true
     optional: true
 
-  /@commitlint/cli@19.8.0(@types/node@22.15.21)(typescript@5.8.3):
-    resolution: {integrity: sha512-t/fCrLVu+Ru01h0DtlgHZXbHV2Y8gKocTR5elDOqIRUzQd0/6hpt2VIWOj9b3NDo7y4/gfxeR2zRtXq/qO6iUg==}
+  /@commitlint/cli@19.8.1(@types/node@22.15.21)(typescript@5.8.3):
+    resolution: {integrity: sha512-LXUdNIkspyxrlV6VDHWBmCZRtkEVRpBKxi2Gtw3J54cGWhLCTouVD/Q6ZSaSvd2YaDObWK8mDjrz3TIKtaQMAA==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
@@ -86,15 +86,15 @@ packages:
       '@commitlint/load': 19.8.1(@types/node@22.15.21)(typescript@5.8.3)
       '@commitlint/read': 19.8.1
       '@commitlint/types': 19.8.1
-      tinyexec: 0.3.2
+      tinyexec: 1.0.1
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@types/node'
       - typescript
     dev: true
 
-  /@commitlint/config-conventional@19.8.0:
-    resolution: {integrity: sha512-9I2kKJwcAPwMoAj38hwqFXG0CzS2Kj+SAByPUQ0SlHTfb7VUhYVmo7G2w2tBrqmOf7PFd6MpZ/a1GQJo8na8kw==}
+  /@commitlint/config-conventional@19.8.1:
+    resolution: {integrity: sha512-/AZHJL6F6B/G959CsMAzrPKKZjeEiAVifRyEwXxcT6qtqbPwGw+iQxmNS+Bu+i09OCtdNRW6pNpBvgPrtMr9EQ==}
     engines: {node: '>=v18'}
     dependencies:
       '@commitlint/types': 19.8.1
@@ -3266,10 +3266,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       convert-hrtime: 5.0.0
-    dev: true
-
-  /tinyexec@0.3.2:
-    resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
     dev: true
 
   /tinyexec@1.0.1:
