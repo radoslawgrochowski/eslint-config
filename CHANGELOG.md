@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.0...v2.2.1) (2025-06-10)
+
+
+### Bug Fixes
+
+* move prettier to dependencies and update eslint ([8746964](https://github.com/radoslawgrochowski/eslint-config/commit/8746964a8d9dd317afce4deec585085ff7686f44))
+
 # Changelog
 
 ## [2.2.0](https://github.com/radoslawgrochowski/eslint-config/compare/v2.1.0...v2.2.0) (2025-06-10)
