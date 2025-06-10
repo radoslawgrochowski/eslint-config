@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/radoslawgrochowski/eslint-config/compare/v2.1.0...v2.2.0) (2025-06-10)
+
+
+### Features
+
+* add jsx-runtime rules to react config ([f356a92](https://github.com/radoslawgrochowski/eslint-config/commit/f356a928ba6f61f38597f72128ab204a6653cad0))
+* disable unwanted react and typescript lint rules ([d0669ba](https://github.com/radoslawgrochowski/eslint-config/commit/d0669bad252926e7d191719eec1e8ac5b6436b60))
+
 # [2.1.0](https://github.com/radoslawgrochowski/eslint-config/compare/v2.0.1...v2.1.0) (2025-06-10)
 
 
