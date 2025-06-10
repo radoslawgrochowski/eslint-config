@@ -24,6 +24,8 @@ export default tseslint.config({
     ...react.configs.flat.recommended.rules,
     ...react.configs.flat['jsx-runtime'].rules,
     ...reactHooks.configs['recommended-latest'].rules,
+    'react/prop-types': 'off',
+    'react/display-name': 'off',
   },
   settings: {
     react: {

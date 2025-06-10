@@ -10,4 +10,7 @@ export default tseslint.config({
       project: true,
     },
   },
+  rules: {
+    'no-unused-vars': 'off',
+  },
 })
