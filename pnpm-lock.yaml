@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@eslint/js':
     specifier: ^9.12.0
-    version: 9.27.0
+    version: 9.28.0
   '@typescript-eslint/eslint-plugin':
     specifier: ^8.8.1
     version: 8.33.0(@typescript-eslint/parser@8.33.0)(eslint@9.28.0)(typescript@5.8.3)
@@ -29,6 +29,9 @@ dependencies:
   globals:
     specifier: ^16.2.0
     version: 16.2.0
+  prettier:
+    specifier: ^3.5.3
+    version: 3.5.3
   typescript-eslint:
     specifier: ^8.8.1
     version: 8.33.0(eslint@9.28.0)(typescript@5.8.3)
@@ -55,9 +58,6 @@ devDependencies:
   husky:
     specifier: 9.1.7
     version: 9.1.7
-  prettier:
-    specifier: 3.5.3
-    version: 3.5.3
   semantic-release:
     specifier: 24.2.5
     version: 24.2.5(typescript@5.8.3)
@@ -298,11 +298,6 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
-
-  /@eslint/js@9.27.0:
-    resolution: {integrity: sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    dev: false
 
   /@eslint/js@9.28.0:
     resolution: {integrity: sha512-fnqSjGWd/CoIp4EXIxWVK/sHA6DOHN4+8Ix2cX5ycOY7LG0UY8nHCU5pIp2eaE1Mc7Qd8kHspYNzYXT2ojPLzg==}
@@ -3225,6 +3220,7 @@ packages:
     resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: false
 
   /pretty-ms@9.2.0:
     resolution: {integrity: sha512-4yf0QO/sllf/1zbZWYnvWw3NxCQwLXKzIj0G849LSufP15BXKM0rbD2Z3wVnkMfjdn/CB0Dpp444gYAACdsplg==}
