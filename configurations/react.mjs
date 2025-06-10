@@ -22,6 +22,7 @@ export default tseslint.config({
   },
   rules: {
     ...react.configs.flat.recommended.rules,
+    ...react.configs.flat['jsx-runtime'].rules,
     ...reactHooks.configs['recommended-latest'].rules,
   },
   settings: {
