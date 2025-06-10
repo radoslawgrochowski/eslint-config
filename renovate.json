@@ -1,7 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:js-lib",
-    "local>radoslawgrochowski/renovate-config"
-  ]
+  "extends": ["config:js-lib", "local>radoslawgrochowski/renovate-config"]
 }

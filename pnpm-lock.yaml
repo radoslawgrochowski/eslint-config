@@ -46,6 +46,9 @@ devDependencies:
   '@semantic-release/git':
     specifier: 10.0.1
     version: 10.0.1(semantic-release@24.2.5)
+  '@tsconfig/node-lts':
+    specifier: ^22.0.1
+    version: 22.0.1
   eslint:
     specifier: 9.28.0
     version: 9.28.0
@@ -627,6 +630,10 @@ packages:
   /@sindresorhus/merge-streams@4.0.0:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
+    dev: true
+
+  /@tsconfig/node-lts@22.0.1:
+    resolution: {integrity: sha512-BwlbLiYurZKrj+Pa6etSE1jXmr3VEDdgJto1jEYKcpBVwZZSWVkCPyFEFYbHdIOaFMlSTtV206DYPlT109aqug==}
     dev: true
 
   /@types/conventional-commits-parser@5.0.1:

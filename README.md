@@ -14,18 +14,18 @@ $ pnpm i -D @radoslawgrochowski/eslint-config eslint prettier
 
 ```mjs
 // @ts-check
-import config from "@radoslawgrochowski/eslint-config";
+import config from '@radoslawgrochowski/eslint-config'
 // import react from "@radoslawgrochowski/eslint-config/react";
 
 export default [
   // add project rules first
-  { ignores: ["**/.next"] },
+  { ignores: ['**/.next'] },
 
   // use default setup
   ...config,
   // or use explicit import just for specific ruleset:
   // ...react,
-];
+]
 ```
 
 3. Update `package.json`'s scripts:

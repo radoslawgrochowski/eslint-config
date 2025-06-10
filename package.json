@@ -11,10 +11,13 @@
     "README.md"
   ],
   "scripts": {
-    "prepare": "husky",
+    "format": "prettier --ignore-path .prettierignore --ignore-path .gitignore **/*.{json,md} --list-different",
+    "format:fix": "pnpm format --write",
     "lint": "eslint .",
     "lint:fix": "pnpm lint --fix",
-    "release": "semantic-release"
+    "prepare": "husky",
+    "release": "semantic-release",
+    "type-check": "tsc"
   },
   "exports": {
     "./*": "./configurations/*.mjs",
@@ -49,6 +52,7 @@
     "@commitlint/config-conventional": "19.8.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
+    "@tsconfig/node-lts": "^22.0.1",
     "eslint": "9.28.0",
     "husky": "9.1.7",
     "prettier": "3.5.3",
