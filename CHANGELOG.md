@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.1...v2.2.2) (2025-06-11)
+
+
+### Bug Fixes
+
+* **build:** include changelog and configurations in package ([de37f95](https://github.com/radoslawgrochowski/eslint-config/commit/de37f95b018641cab47f0899eb712bcc0e8fdc07))
+
 ## [2.2.1](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.0...v2.2.1) (2025-06-10)
 
 
