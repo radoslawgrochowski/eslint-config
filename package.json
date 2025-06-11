@@ -7,8 +7,10 @@
   },
   "main": "eslint.config.mjs",
   "files": [
-    "eslint.config.mjs",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "configurations/*.mjs",
+    "eslint.config.mjs"
   ],
   "scripts": {
     "format": "prettier --ignore-path .prettierignore --ignore-path .gitignore **/*.{json,md} --list-different",
