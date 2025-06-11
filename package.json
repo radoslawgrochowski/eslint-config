@@ -10,7 +10,8 @@
     "README.md",
     "CHANGELOG.md",
     "configurations/*.mjs",
-    "eslint.config.mjs"
+    "eslint.config.mjs",
+    "prettier.config.mjs"
   ],
   "scripts": {
     "format": "prettier --ignore-path .prettierignore --ignore-path .gitignore **/*.{json,md} --list-different",
