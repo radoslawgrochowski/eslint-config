@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.2...v2.2.3) (2025-06-11)
+
+
+### Bug Fixes
+
+* **build:** include prettier config in package files ([1800d6a](https://github.com/radoslawgrochowski/eslint-config/commit/1800d6a2c85c6010964f11743471b9263a9c41de))
+
 ## [2.2.2](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.1...v2.2.2) (2025-06-11)
 
 
