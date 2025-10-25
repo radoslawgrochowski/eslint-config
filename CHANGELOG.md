@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.3...v2.2.4) (2025-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v7 ([#128](https://github.com/radoslawgrochowski/eslint-config/issues/128)) ([cf8fac5](https://github.com/radoslawgrochowski/eslint-config/commit/cf8fac502f77d36c7da339b9a5388bae6ae481fd))
+
 ## [2.2.3](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.2...v2.2.3) (2025-06-11)
 
 
