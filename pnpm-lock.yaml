@@ -50,8 +50,8 @@ devDependencies:
     specifier: 10.0.1
     version: 10.0.1(semantic-release@25.0.3)
   '@tsconfig/node-lts':
-    specifier: 22.0.4
-    version: 22.0.4
+    specifier: 24.0.0
+    version: 24.0.0
   eslint:
     specifier: 9.39.2
     version: 9.39.2
@@ -819,8 +819,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@tsconfig/node-lts@22.0.4:
-    resolution: {integrity: sha512-5eAeCX6l/EYe6H2UAw5nBgjfAgdlsR+lSp8YNNGwz+ixoi7JfJ5bOQvsiEhxGm5bOZFVF+cJSIj4tanpCCRMIw==}
+  /@tsconfig/node-lts@24.0.0:
+    resolution: {integrity: sha512-8mSTqWwCd6aQpvxSrpQlMoA9RiUZSs7bYhL5qsLXIIaN9HQaINeoydrRu/Y7/fws4bvfuyhs0BRnW9/NI8tySg==}
     dev: true
 
   /@types/estree@1.0.8:
