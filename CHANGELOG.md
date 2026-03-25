@@ -1,3 +1,10 @@
+## [2.2.5](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.4...v2.2.5) (2026-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v17 ([#149](https://github.com/radoslawgrochowski/eslint-config/issues/149)) ([b4eaa92](https://github.com/radoslawgrochowski/eslint-config/commit/b4eaa92e38c7876f2476ebc0863262ea64a41745))
+
 ## [2.2.4](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.3...v2.2.4) (2025-10-25)
 
 
