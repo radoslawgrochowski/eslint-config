@@ -8,9 +8,6 @@ export default {
     '@semantic-release/changelog',
     '@semantic-release/npm',
     '@semantic-release/github',
-    [
-      '@semantic-release/git',
-      { message: 'chore(release): ${nextRelease.version} [skip ci]' },
-    ],
+    '@semantic-release/git',
   ],
 }
