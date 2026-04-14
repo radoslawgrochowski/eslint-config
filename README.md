@@ -41,5 +41,5 @@ export default [
 
 4. Setup CI
 
-See [this project's lint workflow](./.github/workflows/lint.yml) as an example.
+See [this project's lint workflow](./.github/workflows/main.yml) as an example.
 Don't forget to set up "Require status checks to pass before merging".
