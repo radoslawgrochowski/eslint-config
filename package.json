@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/radoslawgrochowski/eslint-config/issues"
   },
-  "packageManager": "pnpm@11.0.6",
+  "packageManager": "pnpm@11.0.7",
   "homepage": "https://github.com/radoslawgrochowski/eslint-config#readme",
   "peerDependencies": {
     "eslint": "^9"
