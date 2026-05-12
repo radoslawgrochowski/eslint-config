@@ -1,3 +1,10 @@
+## [2.2.6](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.5...v2.2.6) (2026-05-12)
+
+
+### Bug Fixes
+
+* **deps:** update eslint monorepo to v10 ([#190](https://github.com/radoslawgrochowski/eslint-config/issues/190)) ([2bcfc27](https://github.com/radoslawgrochowski/eslint-config/commit/2bcfc27b1e28707d15c66e5ab7806a72c8575c6f))
+
 ## [2.2.5](https://github.com/radoslawgrochowski/eslint-config/compare/v2.2.4...v2.2.5) (2026-03-25)
 
 

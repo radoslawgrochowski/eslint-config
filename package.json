@@ -1,6 +1,6 @@
 {
   "name": "@radoslawgrochowski/eslint-config",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/radoslawgrochowski/eslint-config.git"
