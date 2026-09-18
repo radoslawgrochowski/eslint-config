@@ -53,8 +53,8 @@
     "typescript-eslint": "^8.8.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.2.1",
-    "@commitlint/config-conventional": "21.2.0",
+    "@commitlint/cli": "21.2.2",
+    "@commitlint/config-conventional": "21.2.2",
     "@semantic-release/changelog": "7.0.0",
     "@semantic-release/git": "11.0.1",
     "@tsconfig/node-lts": "24.0.0",
